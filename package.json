@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build": "nuxt build",
+    "deployfb": "cd .ouput/server && rd /s /q node_modules && npm i && cd .. && firebase deploy",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^8.3.1",
+    "@tresjs/nuxt": "^3.0.0",
+    "@vueuse/motion": "^2.2.3",
+    "nuxt": "^3.11.1",
+    "three": "^0.165.0",
+    "v-calendar": "^3.1.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}

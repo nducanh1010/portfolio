@@ -1,0 +1,25 @@
+<template>
+  <div class="bg-[#fafafa] w-full box-border mx-auto">
+    <Header />
+    <div
+      class="w-full md:w-1/2 mx-auto px-4 pt-[calc(theme(spacing.6)*2+theme(spacing.3)*3)] md:pt-[calc(theme(spacing.6)*2+theme(spacing.3)*6)]"
+    >
+      <NuxtPage />
+
+      <div class="mt-16"><Footer /></div>
+    </div>
+  </div>
+</template>
+<script setup lang="ts">
+const title = ref("Per");
+
+useSeoMeta({
+  title,
+  description: () => `description: ${title.value}`
+});
+</script>
+<style>
+body {
+  background-color: #fafafa;
+}
+</style>
