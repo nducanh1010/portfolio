@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   },
   // config directory
   app: {
-    baseURL:'/',
+    baseURL:'/portfolio/',
     buildAssetsDir:'assets',
     head: {
       link: [
