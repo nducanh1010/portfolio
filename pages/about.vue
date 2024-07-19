@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div 
     v-motion
     :initial="{
       x: 100,
@@ -16,7 +16,7 @@
       src="/about.jpg"
       class="rounded-xl w-full aspect-[16/7] object-cover mb-10"
     />
-    <div class="w-[90%]">
+    <div class="w-full md:w-[90%]">
       <p>
         Throughout my career, I have worked on numerous projects in various
         industries, including healthcare, finance, and consumer goods. My design
@@ -56,7 +56,7 @@
       <p class="text-xl text-primary font-medium font-mono mb-4">
         Most play with:
       </p>
-      <div class="flex gap-6 items-center justify-start">
+      <div class="flex gap-6 items-center justify-start flex-wrap">
         <i
           class="devicon-vuejs-plain text-5xl colored hover:text-green-500 duration-200"
         ></i>
@@ -67,7 +67,7 @@
 
         <i class="devicon-react-original text-5xl colored" title="ReactJS"></i>
         <i class="devicon-webstorm-plain colored text-5xl"></i>
-      
+
         <i class="devicon-figma-plain colored text-5xl"></i>
         <i
           class="devicon-bash-plain text-5xl colored hover:text-slate-500 duration-200"
@@ -122,9 +122,9 @@
               project specifications, and work totally in English.
             </li>
             <li class="text-primary font-normal">
-             For Speaking: I am capable of basic communication and am always
+              For Speaking: I am capable of basic communication and am always
               striving to improve every day. In my free time, I'm usually
-              practicing by self-learning through an E  -learning platform and
+              practicing by self-learning through an E -learning platform and
               with a native English teacher.
               <!-- I'm currently practicing communication
               with a native teacher every weekend. -->

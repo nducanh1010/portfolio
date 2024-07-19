@@ -1,13 +1,9 @@
 <template>
   <div
-    class="nav-elevated z-10 w-full bg-[#fafafa] md:w-1/2 left-1/2 transform -translate-x-1/2 fixed border top-0 md:top-6 rounded-xl border-solid flex justify-between py-3 px-6 text-primary text-base font-medium"
+    class="nav-elevated z-10 w-full sticky bg-[#fafafa] md:w-1/2 mx-auto border top-0 md:top-6 rounded-xl border-solid flex justify-between py-3 px-6 text-primary text-base font-medium"
   >
     <div class="flex grow items-center">
-      <!-- <object
-            data="/logo-view.svg"
-            type="image/svg+xml"
-            class="aspect-square w-5 "
-          ></object> -->
+    
       <img src="/image.png" class="w-5 h-5 object-contain text-gray-400 mr-2" />
       <NuxtLink href="/">
         <span class="ct-top-menu-item">Duc Anh</span></NuxtLink
@@ -32,7 +28,7 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  transform: translateX(-50%) translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .ct-top-menu-item {

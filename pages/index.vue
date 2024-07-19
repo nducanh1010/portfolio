@@ -4,12 +4,24 @@ import { hover } from "~/const/transition";
 
 <template>
   <div v-motion-slide-visible-right>
-    <div class="flex flex-col gap-7 justify-center md:justify-start">
+    <div class="flex flex-col break-normal gap-7 justify-center md:justify-start">
       <img
         src="/avatar.png"
         class="max-w-16 min-w-16 aspect-square object-scale-down"
       />
-      <h1 class="text-4xl font-semibold">Hi, I'm Duc Anh</h1>
+      <div class="text-4xl mt-4 leading-normal">
+     
+     <div class="flex gap-2">
+       Hello!
+       <img
+         src="/wave.png"
+         class="hover:animate-wave w-8 aspect-square object-contain"
+       />
+     </div>
+     I'm <span class="font-semibold">Duc Anh</span>, a design-minded front-end software engineer focused
+     on building beautiful interfaces & experiences
+   
+   </div> 
       <div class="flex flex-col md:flex-row gap-4">
         <div
           class="bg-[#f4f4f5] py-1 px-3 outline-1 rounded text-sm outline outline-gray-300"
@@ -63,18 +75,25 @@ import { hover } from "~/const/transition";
     <!-- About me Section -->
     <div class="py-16 text-left">
       <div class="text-primary font-semibold">About me</div>
-      <div class="text-xl mt-4 leading-normal">
-        <!-- Hello, I'm Patrick Gio - a Senior Product Designer with a passion for
-        creating innovative, user-centric designs that solve real-world
-        problems. With over a decade of experience in the field and a degree in
-        industrial design, I have honed my skills and developed a deep
-        understanding of user behavior. -->
-        Hey! My name is Duc Anh and I'm a web
-        developer with a passion for front end development and design.  I
-        aspire toward a career that will allow me to channel my creativity
-        through crafting beautiful software and engaging experiences. When I'm
-        not on the computer, I enjoy running, workouts, and petting dogs.
+      <div class="text-4xl mt-4 leading-normal">
+     
+        <div class="flex gap-2">
+          Hello!
+          <img
+            src="/wave.png"
+            class="hover:animate-wave w-8 aspect-square object-contain"
+          />
+        </div>
+        I'm <span class="">Duc Anh</span>, a design-minded front-end software engineer focused
+        on building beautiful interfaces & experiences
+      
       </div>
+        <!--       
+        My name is Duc Anh and I'm a web developer with a passion for front end
+        development and design. I aspire toward a career that will allow me to
+        channel my creativity through crafting beautiful software and engaging
+        experiences. When I'm not on the computer, I enjoy running, workouts,
+        and petting dogs. -->
       <NuxtLink to="/work">
         <div class="text-[#1d4ed8] cursor-pointer flex gap-3 mt-6 text-base">
           Learn More
