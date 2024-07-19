@@ -1,1 +1,0 @@
-import{m as a,c as r,a as n,n as o,t as u,o as i}from"./CYQu6WbK.js";const f={__name:"i18n",setup(p){const{locale:c,setLocale:t}=a();return(l,e)=>(i(),r("div",null,[n("div",null,[n("button",{onClick:e[0]||(e[0]=s=>o(t)("en"))},"en"),n("button",{onClick:e[1]||(e[1]=s=>o(t)("fr"))},"fr"),n("p",null,u(l.$t("welcome")),1)])]))}};export{f as default};
