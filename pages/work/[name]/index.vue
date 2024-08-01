@@ -6,8 +6,8 @@
       img="/portfolio/bk.png"
       role="Developer"
     >
-      <div class="mb-8 indent-6 leading-2 ">
-        <span class="font-semibold text-primary text-md "
+      <div class="mb-8 indent-6 leading-2">
+        <span class="font-semibold text-primary text-xl"
           >Retake Registration</span
         >
         is an in-house and client website that facilitates online exam (course)
@@ -20,7 +20,9 @@
       <div class="font-semibold text-primary text-xl mb-4">
         My Contributors :
       </div>
-      <ul class="list-disc leading-relaxed mx-4 text-sm">
+      <ul
+        class="list-disc leading-relaxed mx-4  marker:text-gray-600 text-base"
+      >
         <li>
           Noticeable mail verification, fee enrollment, and calendar schedule
           feature, responsible for major CMS feature implementation,

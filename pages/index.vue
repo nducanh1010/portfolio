@@ -105,10 +105,16 @@ import { hover } from "~/const/transition";
     <div class="py-6">
       <div class="text-primary font-semibold mb-4">Recent work</div>
       <div class="flex flex-col gap-4">
-        <LazyWorkCard >
-          An abstract galaxy illustration with a vibrant and imaginative
-          depiction of a galaxy, blending artistic creativity with cosmic
-          elements.
+        <LazyWorkCard
+          name="Retake Registration"
+          timeline="2024"
+          role="Developer"
+          img="/portfolio/bk.png"
+          link="/work/retake-registration"
+        >
+          In Retake Registrion, I was responsible for implementing major CMS
+          features, including email verification and scheduling, and developing
+          boilerplate UI components.
         </LazyWorkCard>
       </div>
       <NuxtLink to="work">
