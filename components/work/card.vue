@@ -1,7 +1,12 @@
 <script setup lang="ts">
-// const props=defineProps<{
+const props = defineProps<{
+  name: string;
+  timeline: string;
+  role: string;
 
-// }>
+  link: string;
+}>();
+</script>
 </script>
 <template>
   <div
@@ -22,13 +27,11 @@
       }
     }"
   >
-    <div
-      class="w-full rounded-sm aspect-video bg-[url('/test.png')] bg-contain bg-no-repeat bg-center mb-12"
-    ></div>
-    <!-- <img
-        src="/test.png"
+      
+    <img
+        src="portfolio/bk.png"
         class="object-cover object-center w-full aspect-video"
-      /> -->
+      />
     <div
       class="flex w-full flex-col gap-7 md:gap-0 md:flex-row md:aspect-[16/5]"
     >
@@ -36,15 +39,16 @@
         <div
           class="text-2xl font-semibold decoration-4 text-semibold underline-offset-8 underline decoration-[#E11D48]"
         >
-          Weeklify
+          {{name}}
         </div>
-        <div class="text-primary">Senior Product Designer</div>
-        <div class="text-primary">2022 - Present</div>
+        <div class="text-primary">{{ role }}</div>
+        <div class="text-primary">{{ timeline }}</div>
       </div>
       <div class="basis-1/2 flex items-end">
-        At Weeklify, I design exceptional user experiences for our AI-powered
-        calendar application, collaborating with cross-functional teams to
-        ensure our product meets business goals and exceeds user expectations.
+      <slot>
+
+      </slot>
+
       </div>
     </div>
   </div>

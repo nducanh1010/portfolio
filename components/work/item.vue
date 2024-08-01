@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const props = defineProps<{
+  name: string;
+  title: string;
+  link: string;
+  img: string;
+}>();
+</script>
 <template>
   <div
     class="bg-white p-6 rounded-md shadow-lg shadow-slate-200 box-border"
@@ -17,16 +25,18 @@
       }
     }"
   >
-    <!-- <div
+    <NuxtLink :to="link">
+      <!-- <div
       class="w-full rounded-sm aspect-video bg-[url('/test.png')] bg- bg-no-repeat bg-center mb-2"
     ></div> -->
-    <img
-        src="/test.png"
-        class="object-cover object-center w-full rounded-sm  mb-6  aspect-video"
+      <img
+        :src="img"
+        class="object-scale-down object-center w-full rounded-sm mb-6 aspect-video"
       />
-    <div>
-      <div class="mb-4 font-semibold text-2xl">Weeklify</div>
-      <div class="text-primary">AI-powered calendar application</div>
-    </div>
+      <div>
+        <div class="mb-4 font-semibold text-2xl">{{ name }}</div>
+        <div class="text-primary">{{ title }}</div>
+      </div>
+    </NuxtLink>
   </div>
 </template>
