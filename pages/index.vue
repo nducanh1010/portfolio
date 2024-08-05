@@ -94,7 +94,7 @@ import { hover } from "~/const/transition";
         <div class="text-[#1d4ed8] cursor-pointer flex gap-3 mt-6 text-base">
           Learn More
           <object
-            data="/next.svg"
+            data="/portfolio/next.svg"
             type="image/svg+xml"
             class="aspect-square w-5"
           ></object>
