@@ -1,5 +1,5 @@
 <template>
-  <div 
+  <div
     v-motion
     :initial="{
       x: 100,
@@ -18,38 +18,34 @@
     />
     <div class="w-full md:w-[90%]">
       <p>
-        Throughout my career, I have worked on numerous projects in various
-        industries, including healthcare, finance, and consumer goods. My design
-        process is anchored in extensive research and analysis, which enables me
-        to truly understand the needs and desires of the end user. From there, I
-        utilize my creativity to brainstorm and prototype until I arrive at a
-        design that meets those needs, while also being visually appealing and
-        intuitive.
+        I'm passionate about Front-end & Full Stack Development, with a solid
+        foundation in JavaScript, Vue/React.js, HTML, and CSS. I'm currently
+        expanding my skills in back-end technologies, exploring Express,Nest.js
+        . I believe in embracing new challenges and continuously learning. My
+        goal is to broaden my expertise across various areas of web development,
+        as I find that diverse knowledge helps me approach problems creatively.
+        Whether I'm working on a responsive user interface or contributing to a
+        full-stack application, I'm always eager to create something that's both
+        functional and user-friendly. I enjoy keeping up with the latest web
+        technologies and industry best practices. Currently, I'm working on a
+        1102's browser game using React and an in-house CMS appication with
+        Nuxt.js . These projects are helping me apply my skills and learn new
+        concepts along the way. I'm a dedicated problem-solver and enthusiastic
+        team player, always ready to collaborate and learn from others. While
+        I'm excited about my current projects, I'm also open to new
+        opportunities that can challenge me and accelerate my growth as a
+        developer. You can check out some of my work on my
+        <a
+          target="_blank"
+          class="text-blue-700 transition duration-700 ease-in-out hover:underline"
+          href="https://github.com/nducanh1010/"
+        >
+          GitHub
+        </a>
+        . I'm always looking to connect with other developers and tech
+        enthusiasts, so feel free to reach out!"
       </p>
-      <p>
-        Outside of work, you can often find me exploring the great outdoors,
-        hiking in the mountains, or simply taking a stroll in the park. I also
-        have a passion for photography and love capturing the beauty of the
-        world around me. As a designer, I am constantly inspired by the world we
-        live in and am always looking for new ways to integrate my personal
-        interests into my work. Whether it's taking inspiration from the natural
-        world or incorporating creative photography techniques into my designs,
-        I strive to bring a unique perspective to every project. Throughout my
-        career, I have worked on numerous projects in various industries,
-        including healthcare, finance, and consumer goods. My design process is
-        anchored in extensive research and analysis, which enables me to truly
-        understand the needs and desires of the end user. From there, I utilize
-        my creativity to brainstorm and prototype until I arrive at a design
-        that meets those needs, while also being visually appealing and
-        intuitive. Outside of work, you can often find me exploring the great
-        outdoors, hiking in the mountains, or simply taking a stroll in the
-        park. I also have a passion for photography and love capturing the
-        beauty of the world around me. As a designer, I am constantly inspired
-        by the world we live in and am always looking for new ways to integrate
-        my personal interests into my work. Whether it's taking inspiration from
-        the natural world or incorporating creative photography techniques into
-        my designs, I strive to bring a unique perspective to every project.
-      </p>
+
       <div class="font-semibold text-2xl font-serif mb-8 mt-16">
         Programming Languages & Tools:
       </div>
