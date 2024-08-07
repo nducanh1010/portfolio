@@ -1,6 +1,7 @@
 <template>
   <div v-motion-slide-visible-right>
     <WorkDetail
+      v-if="$route.path === '/work/registration-service'"
       name="Retake Registration"
       timeline="3/2024 - Present"
       img="/portfolio/bk.png"
@@ -20,9 +21,7 @@
       <div class="font-semibold text-primary text-xl mb-4">
         My Contributors :
       </div>
-      <ul
-        class="list-disc leading-relaxed mx-4  marker:text-gray-600 text-base"
-      >
+      <ul class="list-disc leading-relaxed mx-4 marker:text-gray-600 text-base">
         <li>
           Noticeable mail verification, fee enrollment, and calendar schedule
           feature, responsible for major CMS feature implementation,

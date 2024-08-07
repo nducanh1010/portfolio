@@ -28,13 +28,20 @@
         full-stack application, I'm always eager to create something that's both
         functional and user-friendly. I enjoy keeping up with the latest web
         technologies and industry best practices. Currently, I'm working on a
-        1102's browser game using React and an in-house CMS appication with
-        Nuxt.js . These projects are helping me apply my skills and learn new
-        concepts along the way. I'm a dedicated problem-solver and enthusiastic
-        team player, always ready to collaborate and learn from others. While
-        I'm excited about my current projects, I'm also open to new
-        opportunities that can challenge me and accelerate my growth as a
-        developer. You can check out some of my work on my
+        <a
+          target="_blank"
+          class="text-blue-700 transition duration-700 ease-in-out hover:underline"
+          href="   https://1102game.com/"
+        >
+          1102's browser game
+        </a>
+        using React and an in-house CMS appication with Nuxt.js . These projects
+        are helping me apply my skills and learn new concepts along the way. I'm
+        a dedicated problem-solver and enthusiastic team player, always ready to
+        collaborate and learn from others. While I'm excited about my current
+        projects, I'm also open to new opportunities that can challenge me and
+        accelerate my growth as a developer. You can check out some of my work
+        on my
         <a
           target="_blank"
           class="text-blue-700 transition duration-700 ease-in-out hover:underline"
@@ -43,7 +50,7 @@
           GitHub
         </a>
         . I'm always looking to connect with other developers and tech
-        enthusiasts, so feel free to reach out!"
+        enthusiasts, so feel free to reach out!
       </p>
 
       <div class="font-semibold text-2xl font-serif mb-8 mt-16">

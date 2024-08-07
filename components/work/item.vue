@@ -8,18 +8,23 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="bg-white p-6 rounded-md shadow-lg shadow-slate-200 box-border"
+    class="basis-[calc(50%-8px)] bg-white p-6 rounded-md shadow-lg shadow-slate-200 box-border"
     v-motion
     :initial="{
       scale: 1,
-      boxShadow: ' 0px 2px 0px 0px rgba(0, 0, 255, .2)'
+      boxShadow: ' 0px 2px 0px 0px rgba(0, 0, 255, .2)',
+      transition: {
+        duration: 300,
+        type: 'spring',
+        stiffness: 80
+      }
     }"
     :hovered="{
       boxShadow:
         '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
       scale: 1.01,
       transition: {
-        duration: 400,
+        duration: 300,
         type: 'spring',
         stiffness: 80
       }
@@ -34,7 +39,7 @@ const props = defineProps<{
         class="object-scale-down object-center w-full rounded-sm mb-6 aspect-video"
       />
       <div>
-        <div class="mb-4 font-semibold text-2xl">{{ name }}</div>
+        <div class="mb-4 font-semibold text-xl">{{ name }}</div>
         <div class="text-primary">{{ title }}</div>
       </div>
     </NuxtLink>

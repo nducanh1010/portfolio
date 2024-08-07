@@ -1,7 +1,7 @@
 <template>
   <Header />
 
-  <div class="bg-[#fafafa] w-full box-border mx-auto">
+  <div class="bg-stone-100 w-full box-border mx-auto">
     <div
       class="w-full break-normal md:w-1/2 mx-auto px-4 pt-[calc(theme(spacing.6)*2+theme(spacing.3)*3)] "
     >

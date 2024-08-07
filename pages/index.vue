@@ -80,9 +80,11 @@ import { hover } from "~/const/transition";
     <!-- About me Section -->
     <div class="py-16 text-left">
       <div class="text-primary font-semibold">About me</div>
-      <div class="text-4xl mt-4 leading-normal">
-        Hello! I'm <span class="">Duc Anh</span>, a design-minded front-end
-        software engineer focused on building beautiful interfaces & experiences
+      <div class="text-2xl mt-4 leading-normal">
+        I'm a front-end software engineer with a passion for crafting beautiful
+        and intuitive digital experiences. My expertise lies in translating
+        design concepts into seamless, responsive interfaces that delight users
+        and drive engagement.
       </div>
       <!--       
         My name is Duc Anh and I'm a web developer with a passion for front end
@@ -109,8 +111,8 @@ import { hover } from "~/const/transition";
           name="Retake Registration"
           timeline="2024"
           role="Developer"
-          img="/portfolio/bk.png"
-          link="/work/retake-registration"
+          img="/portfolio/bk-view.png"
+          link="/work/registration-service"
         >
           In Retake Registrion, I was responsible for implementing major CMS
           features, including email verification and scheduling, and developing

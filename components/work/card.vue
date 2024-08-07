@@ -14,7 +14,12 @@ const props = defineProps<{
       v-motion
       :initial="{
         scale: 1,
-        boxShadow: '0 0 #0000'
+        boxShadow: '0 0 #0000',
+        transition: {
+          duration: 400,
+          type: 'spring',
+          stiffness: 80
+        }
       }"
       :hovered="{
         boxShadow:
