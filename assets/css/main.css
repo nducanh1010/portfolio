@@ -12,7 +12,7 @@
      after:lg:left-0 after:lg:bg-gray-300  after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 .ct-highlight {
-  @apply font-semibold  underline-offset-2 underline;
+  @apply font-semibold  underline-offset-4 underline decoration-dashed decoration-[1.5px];
 }
 .ct-button {
   @apply tracking-wider    rounded-xl  py-[10px] px-4 text-[13px] text-center font-semibold cursor-pointer hover:bg-opacity-90 duration-200;

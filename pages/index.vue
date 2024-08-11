@@ -115,7 +115,7 @@ import { hover } from "~/const/transition";
           link="/work/registration-service"
         >
           In Retake Registrion, I was responsible for implementing major CMS
-          features, including email verification and scheduling, and developing
+          features, including email verification and scheduling, also developing
           boilerplate UI components.
         </LazyWorkCard>
       </div>
