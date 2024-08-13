@@ -38,12 +38,13 @@ const props = defineProps<{
       >
         <div class="basis-1/2 flex flex-col gap-2 md:items-start">
           <div
-            class="text-2xl font-semibold decoration-4 text-semibold underline-offset-8 underline decoration-[#E11D48]"
+            class="text-2xl mt-4 font-semibold decoration-4 text-semibold underline-offset-8 underline decoration-[#E11D48]"
           >
             {{ name }}
           </div>
           <div class="text-primary">{{ role }}</div>
           <div class="text-primary">{{ timeline }}</div>
+          <!-- <slot name="stack"></slot> -->
         </div>
         <div class="basis-1/2 flex items-end">
           <slot> </slot>

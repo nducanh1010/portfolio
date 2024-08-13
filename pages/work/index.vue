@@ -14,7 +14,7 @@
     
         name="1102's Game"
         link="/work/1102-game"
-        img="/portfolio/1102.png"
+        img="/portfolio/1102detail.png"
         title="Online game browser and news feed"
       />
     </div>

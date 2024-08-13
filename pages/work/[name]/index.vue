@@ -48,7 +48,12 @@
       role="Developer"
     >
       <div class="mb-8 indent-6 leading-2">
-        <span class="font-semibold text-bold text-[1.1rem]">1102 Game</span>
+        <a href="https://1102game.com/">
+          <span
+            class="font-semibold text-bold text-[1.1rem] transition-all hover:text-blue-500"
+            >1102 Game</span
+          >
+        </a>
         is a versatile online gaming hub that offers a diverse selection of free
         browser games, including action, adventure, puzzle, and multiplayer .
         Beyond its game library, 1102 Game serves as a comprehensive resource
@@ -59,19 +64,23 @@
       <div class="font-semibold text-primary text-xl mb-4">
         My Contributors :
       </div>
-      <ul class="list-disc leading-relaxed mx-4 marker:text-gray-600 text-base">
+      <ul
+        class="list-disc text-wrap leading-relaxed mx-4 marker:text-gray-600 text-base"
+      >
+        <li class=" ">
+          Implemented both front-end views and CMS functionality for news
+          sections and game features, ensuring seamless content management and
+          user-friendly interfaces.
+        </li>
         <li>
-          responsible for News and game feature implementation base on
-          design,
-        </li> 
+          Applied pre-rendering techniques for static content to improve page
+          load times.
+        </li>
         <li>
-         Optimizing image loading
-          <span class="ct-highlight">20</span>
-          reusable components, refractoring focuses on various types of input,
-          file imports, data tables, and dialogs built with Vuetify, maintaining
-          a semantic, modular, and
-          <span class="ct-highlight">DRY</span>
-          code base. 
+          Worked on SEO improvements by adding custom slugs and Open Graph
+          metadata to game pages, contributing to the site's overall SEO
+          optimization efforts and achieving a
+          <span class="ct-highlight"> 86-point </span>SEO score.
         </li>
       </ul>
     </WorkDetail>

@@ -106,7 +106,7 @@ import { hover } from "~/const/transition";
     <!-- My worksection -->
     <div class="py-6">
       <div class="text-primary font-semibold mb-4">Recent work</div>
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-10">
         <LazyWorkCard
           name="Retake Registration"
           timeline="2024"
@@ -114,9 +114,32 @@ import { hover } from "~/const/transition";
           img="/portfolio/bk-view.png"
           link="/work/registration-service"
         >
-          In Retake Registrion, I was responsible for implementing major CMS
+          <template #stack
+            ><ul class="mt-auto text-slate-950 text-sm font-mono flex gap-3">
+              <li>Nuxt.js</li>
+              <li>Vuetify</li>
+            </ul></template
+          >
+          In Retake Registration, I was responsible for implementing major CMS
           features, including email verification and scheduling, also developing
           boilerplate UI components.
+        </LazyWorkCard>
+        <LazyWorkCard
+          name="1102's Game"
+          timeline="2024"
+          role="Developer"
+          img="/portfolio/1102.png"
+          link="/work/1102-game"
+        >
+          <template #stack
+            ><ul class="mt-auto text-slate-950 text-sm font-mono flex gap-3">
+              <li>Material UI</li>
+
+              <li>Next.js</li>
+            </ul></template
+          >
+          A dynamic web application that serves free browser-based games and provides
+          valuable resources like news, tips, guides, and gameplay footage. Made with Nextjs and Material UI
         </LazyWorkCard>
       </div>
       <NuxtLink to="work">
