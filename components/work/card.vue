@@ -36,7 +36,7 @@ const props = defineProps<{
       <div
         class="flex w-full flex-col gap-7 md:gap-0 md:flex-row md:aspect-[16/5]"
       >
-        <div class="basis-1/2 flex flex-col gap-2 md:items-start">
+        <div class="basis-1/2 flex flex-col leading-snug gap-2 md:items-start">
           <div
             class="text-2xl mt-4 font-semibold decoration-4 text-semibold underline-offset-8 underline decoration-[#E11D48]"
           >
@@ -44,7 +44,7 @@ const props = defineProps<{
           </div>
           <div class="text-primary">{{ role }}</div>
           <div class="text-primary">{{ timeline }}</div>
-          <!-- <slot name="stack"></slot> -->
+          <slot name="stack"></slot>
         </div>
         <div class="basis-1/2 flex items-end">
           <slot> </slot>

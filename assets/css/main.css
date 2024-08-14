@@ -14,6 +14,9 @@
 .ct-highlight {
   @apply font-semibold  underline-offset-4 underline decoration-dashed decoration-[1.5px];
 }
+.ct-stack {
+  @apply outline outline-1 outline-gray-300 rounded-sm px-2 text-xs text-slate-950 font-mono text-center;
+}
 .ct-button {
   @apply tracking-wider    rounded-xl  py-[10px] px-4 text-[13px] text-center font-semibold cursor-pointer hover:bg-opacity-90 duration-200;
 }

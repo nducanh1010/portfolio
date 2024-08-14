@@ -16,7 +16,7 @@
       src="/about.jpg"
       class="rounded-xl w-full aspect-[16/7] object-cover mb-10"
     />
-    <div class="w-full md:w-[90%]">
+    <div class="w-full text-wrap md:w-[90%]">
       <p>
         I'm passionate about Front-end & Full Stack Development, with a solid
         foundation in JavaScript, Vue/React.js, HTML, and CSS. I'm currently

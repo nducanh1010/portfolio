@@ -28,7 +28,7 @@ import { hover } from "~/const/transition";
           Front-end Developer
         </div>
         <div
-          class="outline-1 text-sm text-nowrap text-center w-fit bg-[#f4f4f5] outline-gray-300 outline rounded flex gap-2 py-1 px-3 items-center"
+          class="outline-1 outline-gray-300 text-sm text-nowrap text-center w-fit bg-[#f4f4f5] outline rounded flex gap-2 py-1 px-3 items-center"
           v-motion
           :initial="{
             scale: 1
@@ -116,8 +116,8 @@ import { hover } from "~/const/transition";
         >
           <template #stack
             ><ul class="mt-auto text-slate-950 text-sm font-mono flex gap-3">
-              <li>Nuxt.js</li>
-              <li>Vuetify</li>
+              <li class="ct-stack">Nuxt.js</li>
+              <li class="ct-stack">Vuetify</li>
             </ul></template
           >
           In Retake Registration, I was responsible for implementing major CMS
@@ -132,14 +132,15 @@ import { hover } from "~/const/transition";
           link="/work/1102-game"
         >
           <template #stack
-            ><ul class="mt-auto text-slate-950 text-sm font-mono flex gap-3">
-              <li>Material UI</li>
+            ><ul class="mt-auto  flex gap-3">
+              <li class="ct-stack">Material UI</li>
 
-              <li>Next.js</li>
+              <li class="ct-stack">Next.js</li>
             </ul></template
           >
-          A dynamic web application that serves free browser-based games and provides
-          valuable resources like news, tips, guides, and gameplay footage. Made with Nextjs and Material UI
+          A dynamic web application that serves free browser-based games and
+          provides valuable resources like news, tips, guides, and gameplay
+          footage.
         </LazyWorkCard>
       </div>
       <NuxtLink to="work">
