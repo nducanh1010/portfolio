@@ -84,5 +84,46 @@
         </li>
       </ul>
     </WorkDetail>
+    <WorkDetail
+      v-if="$route.path === '/work/keno-cms'"
+      name="CMS Keno"
+      timeline="5/2024"
+      img="/portfolio/keno-cms.png"
+      role="Developer"
+    >
+      <div class="mb-8 indent-6 leading-2">
+        <!-- <a href="https://1102game.com/">
+          <span
+            class="font-semibold text-bold text-[1.1rem] transition-all hover:text-blue-500"
+            >1102 Game</span
+          >
+        </a> -->
+        This project involved a computerized platform for managing lottery
+        operations. The system handles tasks like managing,statisicing lottery
+        revenue, updating results in real-time, and sending notifications to
+        lottery agents about winning prizes.
+      </div>
+
+      <div class="font-semibold text-primary text-xl mb-4">
+        My Contributors :
+      </div>
+      <ul
+        class="list-disc text-wrap leading-relaxed mx-4 marker:text-gray-600 text-base"
+      >
+        <li class=" ">
+          Helped maintain the existing system and worked on adding new
+          transaction history features
+        </li>
+        <li>
+          Enhanced real-time performance by replacing old interval-based
+          fetching with webSocket for result updates
+        </li>
+        <li>
+          Contributed to the code migration from React Class to a new
+          maintainable codebase built with Vuetify and Nuxt.js within a month
+          and a half.
+        </li>
+      </ul>
+    </WorkDetail>
   </div>
 </template>

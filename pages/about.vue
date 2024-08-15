@@ -31,7 +31,7 @@
         <a
           target="_blank"
           class="text-blue-700 transition duration-700 ease-in-out hover:underline"
-          href="   https://1102game.com/"
+          href="https://1102game.com/"
         >
           1102's browser game
         </a>

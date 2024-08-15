@@ -8,7 +8,7 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="basis-[calc(50%-8px)] bg-white p-6 rounded-md shadow-lg shadow-slate-200 box-border"
+    class="basis-[calc(50%-8px)] relative bg-white p-6 rounded-md shadow-lg shadow-slate-200 box-border"
     v-motion
     :initial="{
       scale: 1,
@@ -41,6 +41,18 @@ const props = defineProps<{
       <div>
         <div class="mb-4 font-semibold text-xl">{{ name }}</div>
         <div class="text-primary">{{ title }}</div>
+      </div>
+
+      <!-- <i
+        class="devicon-github-original text-2xl text-slate-400 top-0 right-2 absolute"
+      ></i> -->
+      <div class=" w-9/12 items-center flex justify-end  absolute bottom-0">
+        <i class="devicon-github-original"></i>
+        <object
+          data="/portfolio/arrow-up-right-from-square.svg"
+          type="image/svg+xml"
+          class="aspect-square w-4"
+        ></object>
       </div>
     </NuxtLink>
   </div>

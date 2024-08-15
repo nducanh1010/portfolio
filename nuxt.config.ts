@@ -23,12 +23,15 @@ export default defineNuxtConfig({
       }
     }
   },
+
   // config directory
   app: {
-    baseURL:'/portfolio/',
-    buildAssetsDir:'assets',
+    baseURL: "/portfolio/",
+
+    buildAssetsDir: "assets",
     head: {
       link: [
+        { rel: "icon", type: "image/x-icon", href: "/portfolio/favicon.ico" },
         {
           rel: "stylesheet",
           crossorigin: "anonymous",
@@ -46,7 +49,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
         }
       ]
     },

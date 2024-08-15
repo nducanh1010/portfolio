@@ -49,7 +49,7 @@ import { hover } from "~/const/transition";
 
           <img src="/share.png" class="aspect-square w-4 object-scale-down" />
         </div>
-        <NuxtLink href="/contact">
+        <a href="mailto:ngn.ducanhwork@gmail.com">
           <div
             class="outline-1 text-sm w-fit text-nowrap text-[#1d4ed8] bg-[#f4f4f5] outline-gray-300 outline rounded flex gap-2 py-1 px-3 items-center"
             v-motion
@@ -74,7 +74,7 @@ import { hover } from "~/const/transition";
               class="aspect-square w-4"
             /></embed> -->
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
     <!-- About me Section -->
@@ -132,7 +132,7 @@ import { hover } from "~/const/transition";
           link="/work/1102-game"
         >
           <template #stack
-            ><ul class="mt-auto  flex gap-3">
+            ><ul class="mt-auto flex gap-3">
               <li class="ct-stack">Material UI</li>
 
               <li class="ct-stack">Next.js</li>
@@ -142,9 +142,31 @@ import { hover } from "~/const/transition";
           provides valuable resources like news, tips, guides, and gameplay
           footage.
         </LazyWorkCard>
+        <LazyWorkCard
+          name="Keno CMS"
+          timeline="2023"
+          role="Maintainer"
+          img="/portfolio/keno-class.png"
+          link="/work/keno-cms"
+        >
+          <template #stack
+            ><ul class="mt-auto flex gap-3">
+              <li class="ct-stack">React Class</li>
+
+              <li class="ct-stack">Nuxt.js</li>
+              <li class="ct-stack">Vuetify</li>
+            </ul></template
+          >
+          For the Keno project, I worked on maintaining the existing React
+          class-based code while also helping to migrate features to a new
+          Nuxt.js codebase. This involved balancing legacy system upkeep with
+          the gradual transition to an updated framework
+        </LazyWorkCard>
       </div>
       <NuxtLink to="work">
-        <button class="ct-button w-full md:w-fit bg-semibold mt-12 text-white">
+        <button
+          class="ct-button w-10/12 text-center md:w-fit bg-semibold mt-12 text-white"
+        >
           See more projects
         </button></NuxtLink
       >
