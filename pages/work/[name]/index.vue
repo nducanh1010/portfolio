@@ -43,7 +43,7 @@
     <WorkDetail
       v-if="$route.path === '/work/1102-game'"
       name="1102 Gaming Hub"
-      timeline="5/2024"
+      timeline="6/2024"
       img="/portfolio/1102detail.png"
       role="Developer"
     >
@@ -87,7 +87,7 @@
     <WorkDetail
       v-if="$route.path === '/work/keno-cms'"
       name="CMS Keno"
-      timeline="5/2024"
+      timeline="1/2024 - 2/2024"
       img="/portfolio/keno-cms.png"
       role="Developer"
     >

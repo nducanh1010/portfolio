@@ -21,12 +21,12 @@
         img="/portfolio/keno-cms.png"
         title="Legacy codebase migration"
       />
-      <WorkItem
+      <!-- <WorkItem
         name="Coffee Wind"
         link="/work/coffee-wind"
         img="/portfolio/coffee-wind.png"
         title="Legacy codebase migration"
-      />
+      /> -->
     </div>
   </div>
 </template>

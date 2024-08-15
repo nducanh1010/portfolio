@@ -1,11 +1,17 @@
 <script setup lang="ts">
-const props = defineProps<{
-  name: string;
-  timeline: string;
-  role: string;
-  link: string;
-  img: string;
-}>();
+const props = withDefaults(
+  defineProps<{
+    name: string;
+    timeline: string;
+    role: string;
+    link: string;
+    img: string;
+    colorHex: string;
+  }>(),
+  {
+    colorHex: () => "#E11D48"
+  }
+);
 </script>
 <template>
   <NuxtLink :to="link">
@@ -38,12 +44,13 @@ const props = defineProps<{
       >
         <div class="basis-1/2 flex flex-col gap-2 md:items-start">
           <div
-            class="text-2xl mt-4 font-semibold decoration-4 text-semibold underline-offset-8 underline decoration-[#E11D48]"
+            :class="`decoration-[${colorHex}]`"
+            class="text-2xl mt-4 font-semibold decoration-4 text-semibold underline-offset-8 underline"
           >
             {{ name }}
           </div>
           <div class="text-primary text-sm">{{ role }}</div>
-          <div class="text-primary text-sm mt-[-10px]">{{ timeline }}</div>
+          <div class="text-primary text-sm">{{ timeline }}</div>
 
           <slot name="stack"></slot>
         </div>

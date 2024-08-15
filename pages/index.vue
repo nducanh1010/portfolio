@@ -80,7 +80,7 @@ import { hover } from "~/const/transition";
     <!-- About me Section -->
     <div class="py-16 text-left">
       <div class="text-primary font-semibold">About me</div>
-      <div class="text-2xl mt-4 leading-normal">
+      <div class="text-xl mt-4 leading-normal">
         I'm a front-end software engineer with a passion for crafting beautiful
         and intuitive digital experiences. My expertise lies in translating
         design concepts into seamless, responsive interfaces that delight users
@@ -130,6 +130,7 @@ import { hover } from "~/const/transition";
           role="Developer"
           img="/portfolio/1102.png"
           link="/work/1102-game"
+          color-hex="#fbbf24"
         >
           <template #stack
             ><ul class="mt-auto flex gap-3">
@@ -148,6 +149,7 @@ import { hover } from "~/const/transition";
           role="Maintainer"
           img="/portfolio/keno-class.png"
           link="/work/keno-cms"
+          color-hex="#0ea5e9"
         >
           <template #stack
             ><ul class="mt-auto flex gap-3">
