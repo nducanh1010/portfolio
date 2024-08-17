@@ -6,7 +6,7 @@ const props = withDefaults(
     role: string;
     link: string;
     img: string;
-    colorHex: string;
+    colorHex?: string;
   }>(),
   {
     colorHex: () => "#E11D48"
@@ -44,7 +44,7 @@ const props = withDefaults(
       >
         <div class="basis-1/2 flex flex-col gap-2 md:items-start">
           <div
-            :class="`decoration-[${colorHex}]`"
+            :style="`text-decoration-color:${colorHex}`"
             class="text-2xl mt-4 font-semibold decoration-4 text-semibold underline-offset-8 underline"
           >
             {{ name }}

@@ -107,6 +107,7 @@
       <div class="font-semibold text-primary text-xl mb-4">
         My Contributors :
       </div>
+
       <ul
         class="list-disc text-wrap leading-relaxed mx-4 marker:text-gray-600 text-base"
       >
@@ -122,6 +123,41 @@
           Contributed to the code migration from React Class to a new
           maintainable codebase built with Vuetify and Nuxt.js within a month
           and a half.
+        </li>
+      </ul>
+    </WorkDetail>
+    <WorkDetail
+      v-if="$route.path === '/work/saymee-cms'"
+      name="Saymee CMS"
+      timeline="2-3/2024"
+      img="/portfolio/saymee.jpg"
+      role="Developer"
+    >
+      <div class="mb-6 indent-6 leading-2">
+        <!-- <a href="https://1102game.com/">
+          <span
+            class="font-semibold text-bold text-[1.1rem] transition-all hover:text-blue-500"
+            >1102 Game</span
+          >
+        </a> -->
+        This project is a gamification platform where administrators can manage
+        user profiles, create and customize gamified content like quests and
+        rewards, analyze user engagement through detailed leaderboards and
+        ranking systems.
+      </div>
+
+      <div class="font-semibold text-primary text-xl mb-4">
+        My Contributors :
+      </div>
+
+      <ul
+        class="list-disc text-wrap leading-relaxed mx-4 marker:text-gray-600 text-base"
+      >
+        <li class=" ">
+          Implementing leaderboard and chart features, help counts user scores
+          and plays by area, ranking users based on perfomance,also display
+          daily and weekly statistics, providing visual insights into user
+          activity trends.
         </li>
       </ul>
     </WorkDetail>

@@ -39,8 +39,8 @@ const props = defineProps<{
         class="object-cover object-center w-full rounded-sm mb-6 aspect-video"
       />
       <div>
-        <div class="mb-4 font-semibold text-xl">{{ name }}</div>
-        <div class="text-primary">{{ title }}</div>
+        <div class="mb-2 font-semibold text-xl">{{ name }}</div>
+        <div class="text-primary text-sm">{{ title }}</div>
       </div>
 
       <!-- <i

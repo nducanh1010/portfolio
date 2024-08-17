@@ -20,6 +20,9 @@
 .ct-button {
   @apply tracking-wider    rounded-xl  py-[10px] px-4 text-[13px] text-center font-semibold cursor-pointer hover:bg-opacity-90 duration-200;
 }
+.ct-link {
+  @apply hover:transition-all hover:duration-300 hover:text-blue-500 transition-all duration-300 ease-in-out;
+}
 @media screen(xl) {
   .ct-parallax {
     height: 70vh;

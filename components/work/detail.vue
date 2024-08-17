@@ -9,7 +9,7 @@ const props = defineProps<{
 <template>
   <div class="flex flex-col gap-8 w-full mx-auto container">
     <div
-      class="text-semibold tracking-wider text-3xl text-center font-semibold"
+      class="text-semibold tracking-wider text-3xl text-center font-medium"
     >
       {{ name }}
     </div>

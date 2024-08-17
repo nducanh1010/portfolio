@@ -18,6 +18,7 @@ const { locale, setLocale } = useI18n()
   </div>
   <img src="/test.png" class="w-5/6 max-w-5/6 object-contain h-16" />
   <div></div>
+  <UiGithubSvg class="w-5 hover:text-blue-300"/>
 </div>
   <div>
     <div>
