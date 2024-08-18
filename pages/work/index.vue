@@ -1,3 +1,10 @@
+<script lang="ts" setup>
+const title = ref("Work | Duc Anh ");
+useSeoMeta({
+  title,
+  description: () => `description: ${title.value}`
+});
+</script>
 <template>
   <div v-motion-slide-visible-right>
     <div class="font-semibold text-3xl mb-4">Work</div>

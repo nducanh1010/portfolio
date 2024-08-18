@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import { hover } from "~/const/transition";
+const title = ref("Home | Duc Anh ");
+useSeoMeta({
+  title,
+  description: () => `description: ${title.value}`
+});
 </script>
 
 <template>

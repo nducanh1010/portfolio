@@ -9,6 +9,11 @@ const attrs = ref([
     dates: date.value
   }
 ]);
+const title = ref("Contact | Duc Anh ");
+useSeoMeta({
+  title,
+  description: () => `description: ${title.value}`
+});
 </script>
 <template>
   <div v-motion-slide-visible-right>
