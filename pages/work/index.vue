@@ -13,31 +13,31 @@ useSeoMeta({
       <WorkItem
         name="Retake Registration"
         link="/work/registration-service"
-        img="/portfolio/bk.png"
+        img="/bk.png"
         title="In-house school application"
       />
       <WorkItem
         name="1102's Game"
         link="/work/1102-game"
-        img="/portfolio/1102detail.png"
+        img="/1102detail.png"
         title="Online game browser and news feed"
       />
       <WorkItem
         name="Keno CMS"
         link="/work/keno-cms"
-        img="/portfolio/keno-cms.png"
+        img="/keno-cms.png"
         title="Legacy codebase migration"
       />
       <WorkItem
         name="Saymee CMS"
         link="/work/saymee-cms"
-        img="/portfolio/saymee.jpg"
+        img="/saymee.jpg"
         title="Game leaderboard management and chart statistics"
       />
       <!-- <WorkItem
         name="Coffee Wind"
         link="/work/coffee-wind"
-        img="/portfolio/coffee-wind.png"
+        img="/coffee-wind.png"
         title="Legacy codebase migration"
       /> -->
     </div>

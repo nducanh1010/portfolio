@@ -49,7 +49,7 @@ const props = defineProps<{
       <!-- <div class=" w-9/12 items-center flex justify-end  absolute bottom-0">
         <i class="devicon-github-original"></i>
         <object
-          data="/portfolio/arrow-up-right-from-square.svg"
+          data="/arrow-up-right-from-square.svg"
           type="image/svg+xml"
           class="aspect-square w-4"
         ></object>

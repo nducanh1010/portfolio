@@ -26,12 +26,10 @@ export default defineNuxtConfig({
 
   // config directory
   app: {
-    baseURL: "/portfolio/",
-
     buildAssetsDir: "assets",
     head: {
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/portfolio/favicon.ico" },
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         {
           rel: "stylesheet",
           crossorigin: "anonymous",

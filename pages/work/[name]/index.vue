@@ -11,7 +11,7 @@ useSeoMeta({
       v-if="$route.path === '/work/registration-service'"
       name="Retake Registration"
       timeline="3/2024 - Present"
-      img="/portfolio/bk.png"
+      img="/bk.png"
       role="Developer"
     >
       <div class="mb-8 indent-6 leading-2">
@@ -51,7 +51,7 @@ useSeoMeta({
       v-if="$route.path === '/work/1102-game'"
       name="1102 Gaming Hub"
       timeline="6/2024"
-      img="/portfolio/1102detail.png"
+      img="/1102detail.png"
       role="Developer"
     >
       <div class="mb-8 indent-6 leading-2">
@@ -95,7 +95,7 @@ useSeoMeta({
       v-if="$route.path === '/work/keno-cms'"
       name="CMS Keno"
       timeline="1/2024 - 2/2024"
-      img="/portfolio/keno-cms.png"
+      img="/keno-cms.png"
       role="Developer"
     >
       <div class="mb-8 indent-6 leading-2">
@@ -137,7 +137,7 @@ useSeoMeta({
       v-if="$route.path === '/work/saymee-cms'"
       name="Saymee CMS"
       timeline="2-3/2024"
-      img="/portfolio/saymee.jpg"
+      img="/saymee.jpg"
       role="Developer"
     >
       <div class="mb-6 indent-6 leading-2">

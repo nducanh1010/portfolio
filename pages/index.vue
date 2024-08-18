@@ -101,7 +101,7 @@ useSeoMeta({
         <div class="text-[#1d4ed8] cursor-pointer flex gap-3 mt-6 text-base">
           Learn More
           <object
-            data="/portfolio/next.svg"
+            data="/next.svg"
             type="image/svg+xml"
             class="aspect-square w-5"
           ></object>
@@ -116,7 +116,7 @@ useSeoMeta({
           name="Retake Registration"
           timeline="2024"
           role="Developer"
-          img="/portfolio/bk-view.png"
+          img="/bk-view.png"
           link="/work/registration-service"
         >
           <template #stack
@@ -133,7 +133,7 @@ useSeoMeta({
           name="1102's Game"
           timeline="2024"
           role="Developer"
-          img="/portfolio/1102.png"
+          img="/1102.png"
           link="/work/1102-game"
           color-hex="#fbbf24"
         >
@@ -152,7 +152,7 @@ useSeoMeta({
           name="Keno CMS"
           timeline="2023"
           role="Maintainer"
-          img="/portfolio/keno-class.png"
+          img="/keno-class.png"
           link="/work/keno-cms"
           color-hex="#0ea5e9"
         >
